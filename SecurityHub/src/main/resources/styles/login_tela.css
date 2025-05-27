@@ -1,0 +1,9 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    #nome{
+    -fx-text-fill: red;
+    }
+}
