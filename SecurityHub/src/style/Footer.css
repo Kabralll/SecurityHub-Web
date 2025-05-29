@@ -10,6 +10,14 @@
 .footer a{
     color: #D0ADF0;
 }
+.SuggestionsForms{
+    float: left;
+    width: 50%;
+}
+.footers{
+    float: right;
+    width: 50%;
+}
 .topFooter{
     display: flex;
     justify-content: center;
@@ -41,4 +49,11 @@
 .bottomFooter a{
     font-size: medium;
     padding: .5%;
+}
+.iconsForm a{
+    display: grid;
+    justify-items: center;
+}
+.githubIcon{
+    width: 4vh;
 }

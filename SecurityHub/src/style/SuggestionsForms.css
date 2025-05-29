@@ -1,6 +1,9 @@
 *{
     font-family: Arial, Helvetica, sans-serif
 }
+.forms{
+    width: 100%;
+}
 .textFields{
     width: 52vh;
     height: 15vh;
@@ -30,12 +33,7 @@ input{
     border: none;
     padding: 2%;
 }
-.iconsForm{
-    margin-top: 2%;
-}
-#githubIcon{
-    width: 8%;
-}
+
 .pageText{
     float: left;
     width: 40%;

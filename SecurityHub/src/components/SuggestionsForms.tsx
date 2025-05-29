@@ -1,5 +1,4 @@
 import '../style/SuggestionsForms.css';
-import githubIcon from '../images/github.svg';
 
 const SuggestionsForms = () => {
     return(
@@ -11,10 +10,6 @@ const SuggestionsForms = () => {
                 </div>
                 <textarea className='suggestionField' placeholder=" Digite sua mensagem.."></textarea>
                 <button type='button' className='buttonForm'>Enviar</button>
-            
-                <div className='iconsForm'>
-                    <a href='https://github.com/Kabralll' target="_blank"><img src={githubIcon} id='githubIcon' /></a>
-                </div>
             </div>
             <div className='pageText'>
                 <p>Sua opinião é importante</p>
