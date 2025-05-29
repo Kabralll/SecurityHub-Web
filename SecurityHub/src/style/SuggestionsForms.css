@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+.textFields{
+    width: 52vh;
+    height: 15vh;
+    float: left;
+}
+input{  
+    width: 49%;
+    height: 5vh;
+    border: 2px solid #D0ADF0;
+    background-color: transparent;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.suggestionField{
+    margin-top: 1.5%;
+    width: 100%;
+    height: 10vh;
+    resize: none;
+    border: 2px solid #D0ADF0;
+    background-color: transparent;
+}
+.buttonForm{
+    background-color: #D0ADF0;
+    border: none;
+    padding: 2%;
+}
+.iconsForm{
+    margin-top: 2%;
+}
+#githubIcon{
+    width: 8%;
+}
+.pageText{
+    float: left;
+    width: 40%;
+    margin-left: 4%;
+}
+#contactUs{
+    font-size: x-large;
+    color: #D0ADF0;
+}

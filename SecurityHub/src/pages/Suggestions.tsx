@@ -1,8 +1,11 @@
+import Forms from '../components/SuggestionsForms';
+
+
 
 const Suggestions = () => {
     return (
       <div>
-        <center><h1>Sugestões</h1></center>
+        <Forms />
       </div>
     );
   };
