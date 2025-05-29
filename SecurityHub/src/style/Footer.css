@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
-.footer{
+.footer{ 
     background-color: rgb(73, 73, 73);
+}
+.footer a{
     color: #D0ADF0;
 }
-
 .topFooter{
     display: flex;
     justify-content: center;

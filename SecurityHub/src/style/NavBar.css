@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.nav a{
+    color: #D0ADF0;
+    text-decoration: none;
+}
 .topNav {
     display: flex;
     width: 100%;
     height: 60px;
-    color: #D0ADF0;
 }
 
 /* Garante 3 colunas iguais */
@@ -55,12 +57,6 @@
 }
 .topNav .buttons #signIn:hover{
     background-color: rgb(29, 28, 28);
-}
-
-
-/* Estilo dos links */
-.topNav a {
-    text-decoration: none;
 }
 
 /* Estilo da navegação do meio */
