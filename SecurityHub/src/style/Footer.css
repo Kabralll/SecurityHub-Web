@@ -54,6 +54,10 @@
     display: grid;
     justify-items: center;
 }
+.SuggestionsForms{
+
+}
 .githubIcon{
     width: 4vh;
+    margin-bottom: 1%;
 }
