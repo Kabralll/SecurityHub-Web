@@ -45,9 +45,14 @@
 .topNav .title{
     justify-content: center;
 }
+
 .topNav .title a{
     justify-content: center;
     font-size: xx-large;
+}
+
+.topNav .title #logoImage{
+    width: 15%;
 }
 
 /* Estilo da navegação do meio */

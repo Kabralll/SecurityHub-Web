@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../style/NavBar.css';
 import switchColor from '../images/switchColor.svg';
+import logo from '../images/logo.png';
 
 const NavBar: React.FC = () => {
     return (
@@ -11,6 +12,7 @@ const NavBar: React.FC = () => {
                     <img src={switchColor} alt="switchColor" id='switchColorImage'/>
                 </div>
                 <div className='title'>
+                    <img src={logo} id='logoImage'/>
                     <Link to="/">Security Hub</Link>
                 </div>
                 <div className='buttonsToken'>

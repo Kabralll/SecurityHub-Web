@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
                     <a>2025 - Security Hub. Um novo jeito de gerenciar suas senhas.</a><br></br>     
                 </div>
                 <div className='iconsForm'>
-                    <a href='https://github.com/Kabralll'><img src={githubIcon} className='githubIcon' /></a>
+                    <a href='https://github.com/Kabralll' target='_blank'><img src={githubIcon} className='githubIcon' /></a>
                 </div>
             </div>
             <div className='SuggestionsForms'>
