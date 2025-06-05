@@ -1,22 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../style/NavBar.css';
-import searchIcon from '../images/search.svg';
+import switchColor from '../images/switchColor.svg';
 
 const NavBar: React.FC = () => {
     return (
         <div className='nav'>
             <div className='topNav'>
-                <div className='searchIcon'>
-                    <img src={searchIcon} alt="Search" id='searchIconImage'/>
+                <div className='switchColor'>
+                    <img src={switchColor} alt="switchColor" id='switchColorImage'/>
                 </div>
                 <div className='title'>
                     <Link to="/">Security Hub</Link>
                 </div>
-                <div className='buttons'>
-                    {/* Se você quiser fazer rotas para registro e login, troque # por rotas reais */}
-                    <Link to="/register" id='register'>Registrar</Link>
-                    <Link to="/signin" id='signIn'>Entrar</Link>
+                <div className='buttonsToken'>
+                    <Link to="/recoverToken" id='token'>Token</Link>
                 </div>
             </div>
             <div className='midNav'>

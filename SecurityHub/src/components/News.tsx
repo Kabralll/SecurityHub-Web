@@ -7,7 +7,7 @@ const News = (props:newsProp) => {
         <div>
         {props?.news?.map((data:any) => {
             return <>
-                <h2>{data?.title}</h2><br />
+                <h3>{data?.title}</h3><br />
                 <a>{data?.description}</a><br />
                 <a href={data?.url}>{data?.url}</a><br /><br />
             </>
