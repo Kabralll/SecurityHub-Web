@@ -1,0 +1,63 @@
+
+.passwordCreating{
+    float: left;
+    width: 49%;
+    height: 10rem;
+    background-color: blueviolet;
+    
+}
+.Strength{
+    float: right;
+    width: 49%;
+    height: 10rem;
+    background-color: blueviolet;
+
+}
+.storage{
+    float: left;
+    width: 49%;
+    height: 10rem;
+    margin-top: 2%;
+    background-color: rgb(17, 0, 32);
+}
+.token{
+    float: right;
+    width: 49%;
+    height: 10rem;
+    margin-top: 2%;
+    background-color: rgb(17, 0, 32);
+    
+
+}
+.passwordCreating,.Strength,.storage,.token{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui os elementos para colocar o botão embaixo */
+    position: relative;
+}
+#imageSize{
+    width: 10%;
+    margin-bottom: 1%;
+}
+.divImage{
+    display: flex;
+    justify-content: center;
+}
+.div1,.div2{
+    display: flex;
+    justify-content: space-between;
+}
+.downloadDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    width: 30%;
+
+}
+.downloadDiv a{
+    padding: 1%;
+    background-color: #242424;
+    color: rgb(69, 237, 94);
+    text-decoration: none;
+    font-size: 4vh;
+}
