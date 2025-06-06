@@ -1,11 +1,10 @@
 .newsDiv{
     background-color: #32015f;
     padding: .5%;
-    margin-top: 1.5%;
     float: right;
     margin: 1.1%;
     width: 31%;
-    height: 50vh;
+    height: 60vh;
 
     display: flex;
     flex-direction: column;
@@ -43,7 +42,7 @@
     text-decoration: none;
     color: rgb(69, 237, 94);
 }
-@media screen and (max-width:525px){
+@media screen and (max-width:650px){
     .newsDiv{
     background-color: #32015f;
     padding: .5%;

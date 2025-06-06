@@ -4,16 +4,19 @@ import ornelas from '../images/lucasOrnelas.jpg';
 const App = () => {
     return (
       <div>
-        <h2>O aplicativo disponível para download é a base do nosso projeto. Feito em JavaFX, ele possui funções eficazes e práticas para auxiliar na criação e gerenciamento de senhas</h2>
+        <center><h2>Aplicativo Security Hub</h2></center>
+        <p>O aplicativo disponível para download é a base do nosso projeto. Feito em JavaFX, ele possui funções eficazes e práticas para auxiliar na criação e gerenciamento de senhas</p>
           <div className='div1'>
             <div className='passwordCreating'>
-              <p>Criação de senhas: O aplicativo consegue gerar uma senha aleatória com até 15 caracteres, incluindo letras maiúsculas, letras minúsculas, números e caracteres especiais</p>
+              <h3>Criação de senhas</h3>
+              <p>O aplicativo consegue gerar uma senha aleatória com até 15 caracteres, incluindo letras maiúsculas, letras minúsculas, números e caracteres especiais</p>
               <div className='divImage'>
                 <img src={ornelas} id='imageSize'/>
               </div>
             </div>
             <div className='Strength'>
-              <p> Avaliação de senha: Nessa opção, você consegue descobrir o nível de proteção que sua senha oferece</p>
+              <h3>Avaliação de senha</h3> 
+              <p>Nessa opção, você consegue descobrir o nível de proteção que sua senha oferece</p>
               <div className='divImage'>
                 <img src={ornelas} id='imageSize'/>
               </div>
@@ -21,13 +24,15 @@ const App = () => {
           </div>
           <div className='div2'>
             <div className='storage'>
-              <p>Armazenamento: O nosso banco de dados consegue armazenar diversas senhas e onde elas são usadas</p>
+              <h3>Armazenamento</h3> 
+              <p>O nosso banco de dados consegue armazenar diversas senhas e onde elas são usadas</p>
               <div className='divImage'>
                 <img src={ornelas} id='imageSize'/>
               </div>
             </div>
             <div className='token'>
-              <p>Token: Para acessar o banco, será gerado um token aleatória que terá apenas uma única visibilidade. O usuário deve anotar e guardar essa senha, pois é ela que dará acesso as demais</p>
+              <h3>Token</h3> 
+                <p>Para acessar o banco, será gerado um token aleatória que terá apenas uma única visibilidade. O usuário deve anotar e guardar essa senha, pois é ela que dará acesso as demais</p>
               <div className='divImage'>
                 <img src={ornelas} id='imageSize'/>
               </div>
