@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+.forms{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1.5vh;
+    width: 100%;
+}
+.textFields{
+    width: 100%;
+    height: 15vh;
+}
+input{  
+    width: 49.5%;
+    height: 5vh;
+    border: 2px solid var(--talkToUs_inputAndButtons_color);
+    background-color: transparent;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.suggestionField{
+    margin-top: 1%;
+    width: 100%;
+    height: 10vh;
+    resize: none;
+    border: 2px solid var(--talkToUs_inputAndButtons_color);
+    background-color: transparent;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+}
+.buttonDiv .buttonForm{
+    background-color: var(--talkToUs_inputAndButtons_color);
+    color: var(--talkToUs_fontButton_color);
+    border: none;
+    margin-top: 2%;
+    width: 50%;
+    padding: 1%;
+}
+.pageText{
+    font-size: 1.8vh;
+    margin-bottom: .5%;
+}
+#contactUs{
+    font-size: 160%;
+    color: var(--talkToUs_inputAndButtons_color);
+}

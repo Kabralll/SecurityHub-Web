@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{ 
+    background-color: var(--footer_background);
+}
+.footer a{
+    color: var(--navBar_Footer_color);
+}
+.topFooter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.topFooter a{
+    font-size: x-large;
+    padding: .5%;
+    text-decoration: none;
+}
+
+.midFooter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+.midFooter a{
+    font-size: large;
+    padding: .5%;
+    text-decoration: none;
+}
+
+.bottomFooter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.bottomFooter a{
+    text-align: center;
+    font-size: medium;
+    padding: .5%;
+}
+.iconsForm a{
+    display: grid;
+    justify-items: center;
+}
+.githubIcon{
+    width: 4vh;
+    margin-bottom: 1%;
+}

@@ -1,0 +1,74 @@
+
+.passwordCreating,.Strength,.storage,.token{
+    background-color: var(--news_background_color);
+}
+.passwordCreating,.storage{
+    float: left;
+    width: 49%;
+    height: 100%;
+}
+.Strength,.token{
+    float: right;
+    width: 49%;
+    height: 100%;
+}
+#titles{
+    color: var(--news_title_color);;
+}
+.passwordCreating,.Strength,.storage,.token{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui os elementos para colocar o botão embaixo */
+    position: relative;
+}
+.divImage{
+    display: flex;
+    justify-content: center;
+}
+#imageSize{
+    width: 25%;
+    height: 100%;
+    margin-bottom: 1%;
+}
+.div1,.div2{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.downloadDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 30vh;
+    background-color: var(--aplication_downloadButton_background_color);
+
+}
+.downloadDiv a{
+    color: white;
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+#downloadImage{
+    width: 5vh;
+}
+@media screen and (max-width:650px){
+    .passwordCreating,.storage{
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+    .Strength,.token{
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+    .div1,.div2{
+        margin-top: 2%;
+        display: block;
+    }
+    .passwordCreating,.Strength,.storage,.token{
+        margin-top: 5%;
+    }
+}
