@@ -1,7 +1,7 @@
 {
   "files": [],
   "references": [
-    { "path": "./SecurityHub/tsconfig.app.json" },
-    { "path": "./SecurityHub/tsconfig.node.json" }
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
   ]
 }
