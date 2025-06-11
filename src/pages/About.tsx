@@ -17,7 +17,7 @@ const About = () => {
               width="70%" 
               height="400" 
               src="https://www.youtube.com/embed/l-TjNzuDrsY" 
-              frameBorder="0" 
+              frameborder="0" 
               allowfullscreen>
             </iframe>
           </div>
