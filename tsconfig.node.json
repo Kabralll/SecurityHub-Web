@@ -7,7 +7,7 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "allowSyntheticDefaultImports": true,
+    
     "moduleResolution": "node",
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
