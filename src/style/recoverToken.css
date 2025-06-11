@@ -1,0 +1,18 @@
+.recoverToken{
+    display: grid;
+    justify-content: center;
+}
+.recoverToken #emailField{
+    width: 100%;
+}
+.recoverToken .recoverTokenButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%  ;
+}
+.recoverToken .recoverTokenButton #buttonForm{
+    width: 50%;
+    background-color: var(--token_inputAndButtons_color);
+    color: var(--token_fontButton_color);
+    border: none;
+}
