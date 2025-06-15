@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 export const newsApi = () => {
 
   const [news, setNews] = useState([]);
-  const API_KEY = process.env.NEXT_PUBLIC_NEWS_API_KEY;
+  const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
 
   const getNews = async () => {
     try {
