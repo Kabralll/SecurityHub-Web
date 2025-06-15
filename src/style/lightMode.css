@@ -3,7 +3,7 @@
   }
 
   .custom-checkbox-label {
-    cursor: pointer;
+    cursor: pointer; /*faz a imagem ser clicavel sem precisar de um href*/
     display: inline-block;
   }
   .custom-checkbox-label img {

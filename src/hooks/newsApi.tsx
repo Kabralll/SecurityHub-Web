@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export const newsApi = () => {
 
   const [news, setNews] = useState([]);
-  const API_KEY = '';
+  const API_KEY = '7c56229fcfa74e3cab31f6e795b2e00e';
 
   const getNews = async () => {
     try {

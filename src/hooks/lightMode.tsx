@@ -1,19 +1,18 @@
-import React from "react";
 import switchColor from '../images/switchColor.svg';
 import '../style/lightMode.css';
 
 const LightMode: React.FC = () => {
     const setLightMode = () => {
-        document.body.setAttribute("data-theme", "dark");
-    };
-
-    const setDarkMode = () => {
         document.body.setAttribute("data-theme", "light");
     };
 
+    const setDarkMode = () => {
+        document.body.setAttribute("data-theme", "dark");
+    };
+
     const toggleTheme = (e: React.ChangeEvent<HTMLInputElement>) => {
-        if (e.target.checked) setLightMode();
-        else setDarkMode();
+        if (e.target.checked) setDarkMode();
+        else setLightMode();
     };
 
     return (

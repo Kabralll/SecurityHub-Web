@@ -16,10 +16,12 @@
 .githubIcon{
     width: 4vh;
     margin-bottom: 1%;
+    transition: 0.3s;
 }
 .textPage{
     float: left;
     width: 50%;
+    text-align: justify;
 }
 .textPage a {
     font-size: 2.5vh;
@@ -29,14 +31,29 @@
     justify-content: center;
     width: 50%;
 }
-@media screen and (max-width:525px){
+.videoProject #video{
+    border: 0px;
+}
+
+@media screen and (max-width:1024px){
     .textPage{
         float: none;
         width: 100%;
     }
+    .textPage a {
+        font-size: 2vh;
+    }
     .videoProject{
+        display: flex;
+        justify-content: center;
         width: 100%;
-        height: 400%;
+        padding: 10px;
+    }
+
+    .videoProject #video{
+        width: 100%;
+        height: 30vh;
+
     }
 
 }
