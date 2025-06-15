@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.textFields{
+    width: 100%;
+    height: 15vh;
+}
+input{  
+    width: 49.8%;
+    height: 5vh;
+    border: 2px solid var(--talkToUs_inputAndButtons_color);
+    background-color: transparent;
+}
+input, textarea{ /*faz com que tudo que seja escrito fique em uma cor em especifico*/
+    color: var(--talktoUs_InputtedText_color);
+}
+.inputsFields{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.suggestionField{
+    margin-top: .5%;
+    width: 100%;
+    height: 10vh;
+    resize: none;
+    border: 2px solid var(--talkToUs_inputAndButtons_color);
+    background-color: transparent;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+}
+.buttonDiv .buttonForm{
+    background-color: var(--talkToUs_inputAndButtons_color);
+    color: var(--talkToUs_fontButton_color);
+    border: none;
+    margin-top: 1%;
+    width: 55%;
+    padding: .5%;
+
+}

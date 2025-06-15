@@ -17,6 +17,7 @@
 .newsDiv .titleDiv {
     display: flex;
     justify-content: center;
+    text-align: justify;
 }
 .newsDiv #newsDescription{
     text-align: justify;

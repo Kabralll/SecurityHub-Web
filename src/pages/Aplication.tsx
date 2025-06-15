@@ -44,7 +44,7 @@ const App = () => {
           </div>
         <center><div className='downloadDiv'>
           <img src={download} id='downloadImage'/>
-          <a href="https://app.box.com/s/1f51j8q8646ywk13mv3whs38i9ssvhl2" target="_blank" id='download'>
+          <a href="https://app.box.com/s/y6ezuesmxfn0ofr2jadwb6f219i18wmg" target="_blank" id='download'>
           Download
           </a>
         </div></center>

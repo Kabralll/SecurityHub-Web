@@ -10,6 +10,7 @@
   --news_readMore_color: rgb(0, 38, 255);
   --talkToUs_inputAndButtons_color: black;
   --talkToUs_fontButton_color:white;
+  --talktoUs_InputtedText_color:black;
   --token_inputAndButtons_color: black;
   --token_fontButton_color:white;
   --aplication_downloadButton_background_color: rgb(38, 52, 255);
@@ -26,6 +27,7 @@
   --news_readMore_color: rgb(69, 237, 94);
   --talkToUs_inputAndButtons_color: #D0ADF0;
   --talkToUs_fontButton_color:black;
+  --talktoUs_InputtedText_color:white;
   --token_inputAndButtons_color: #D0ADF0;
   --token_fontButton_color:black;
   --aplication_downloadButton_background_color: #32015f;
