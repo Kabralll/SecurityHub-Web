@@ -4,8 +4,6 @@ export const newsApi = () => {
 
   const [news, setNews] = useState([]);
   const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
-    console.log("API_KEY:", import.meta.env.VITE_NEWS_API_KEY);
-
 
   const getNews = async () => {
     try {
