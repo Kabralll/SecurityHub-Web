@@ -13,6 +13,7 @@ export const newsApi = () => {
     } catch (err) {
       console.error(err);
     }
+
   };
 
   useEffect(() => {

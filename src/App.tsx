@@ -18,6 +18,7 @@ const App: React.FC = () => {
           </div>
           <Footer />
         </div>
+        
     </Router>
   );
 };
