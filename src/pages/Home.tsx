@@ -1,7 +1,7 @@
 import News from '../components/News'
 
 type newsProp ={
-    news:any
+    news:string[];
 }
 
 const Home = (props:newsProp) => {

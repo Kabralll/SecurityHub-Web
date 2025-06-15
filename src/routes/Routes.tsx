@@ -1,4 +1,3 @@
-import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Suggestions from '../pages/talkWithUs';
@@ -8,7 +7,7 @@ import App from '../pages/Aplication';
 import About from '../pages/About';
 
 type Props = {
-  news: any;
+  news: string[];
 };
 
 const AppRoutes: React.FC<Props> = ({ news }) => {

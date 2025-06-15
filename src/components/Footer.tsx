@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import React from 'react';
 import '../style/Footer.css';
 import githubIcon from '../images/github.svg';
 

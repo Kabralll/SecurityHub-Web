@@ -2,7 +2,7 @@ import '../style/News.css';
 import image from '../images/image.png';
 
 type newsProp ={
-    news:any
+    news:string[];
 }
 
 const News = (props:newsProp) => {
