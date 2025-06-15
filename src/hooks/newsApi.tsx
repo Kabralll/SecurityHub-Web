@@ -20,5 +20,9 @@ export const newsApi = () => {
     getNews();
   }, []);
 
+  useEffect(() => {
+  console.log("ENV:", import.meta.env);
+  console.log("API KEY:", import.meta.env.VITE_NEWS_API_KEY);
+}, []);
     return news; //retorna todas as noticias coletadas
   };
