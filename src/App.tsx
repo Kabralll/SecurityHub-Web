@@ -14,7 +14,7 @@ const App: React.FC = () => {
         <div className="page-container">
           <NavBar />
           <div className="content-wrap">
-            <AppRoutes path="*" news={news} /> {/* Passando as notícias como prop */}
+            <AppRoutes news={news} /> {/* Passando as notícias como prop */}
           </div>
           <Footer />
         </div>
