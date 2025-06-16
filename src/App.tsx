@@ -15,6 +15,7 @@ const App: React.FC = () => {
           <NavBar />
           <div className="content-wrap">
             <AppRoutes news={news} /> {/* Passando as notícias como prop */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </div>
           <Footer />
         </div>
