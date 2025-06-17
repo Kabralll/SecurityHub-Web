@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../style/NavBar.css';
-import logo from '../images/logo.png';
+import logo from '../../public/logo.png';
 import LightMode from '../hooks/lightMode';
 
 const NavBar: React.FC = () => {

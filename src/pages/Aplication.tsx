@@ -1,9 +1,9 @@
 import '../style/Aplication.css';
-import passwordCreating from '../images/passwordAdiction.png';
-import passwordStrenght from '../images/passwordStrength.png';
-import passwordStorage from '../images/passwordStorage.png';
-import passwordToken from '../images/passwordToken.png';
-import download from '../images/downloadIcon.svg';
+import passwordCreating from '../../public/passwordAdiction.png';
+import passwordStrenght from '../../public/passwordStrength.png';
+import passwordStorage from '../../public/passwordStorage.png';
+import passwordToken from '../../public/passwordToken.png';
+import download from '../../public/downloadIcon.svg';
 
 const App = () => {
     return (

@@ -1,8 +1,8 @@
-import githubIcon from '../images/github.svg';
+import githubIcon from '../../public/github.svg';
 import '../style/About.css';
-import ornelas from '../images/lucasOrnelas.jpg';
-import cabral from '../images/gustavoCabral.jpg';
-import eduardo from '../images/lucasEduardo.jpg';
+import ornelas from '../../public/lucasOrnelas.jpg';
+import cabral from '../../public/gustavoCabral.jpg';
+import eduardo from '../../public/lucasEduardo.jpg';
 
 const About = () => {
     return (

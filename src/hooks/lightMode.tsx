@@ -1,4 +1,4 @@
-import switchColor from '../images/switchColor.svg';
+import switchColor from '../../public/switchColor.svg';
 import '../style/lightMode.css';
 
 const LightMode: React.FC = () => {

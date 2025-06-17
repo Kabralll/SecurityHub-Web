@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../style/Footer.css';
-import githubIcon from '../images/github.svg';
+import githubIcon from '../../public/github.svg';
 
 const Footer: React.FC = () => {
     return (

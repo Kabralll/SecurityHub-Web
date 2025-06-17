@@ -1,5 +1,5 @@
 import '../style/News.css';
-import image from '../images/image.png';
+import image from '../../public/image.png';
 
 type newsProp ={
     news:string[];
