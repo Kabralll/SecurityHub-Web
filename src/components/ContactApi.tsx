@@ -48,7 +48,7 @@ const ContactForm: React.FC = () => {
             <div className="textFields">
                 <div className='inputsFields'>
                     <input type="text" name='name' id='name' required placeholder=" Digite seu nome.."/>
-                    <input type="email" name='name' id='email' required placeholder=" Digite seu e-mail.."/>
+                    <input type="email" name='email' id='email' required placeholder=" Digite seu e-mail.."/>
                 </div>
                 <textarea name='message' className='suggestionField' placeholder=" Digite sua mensagem.."></textarea>
             </div>
